@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"ddr_hls_test": {
+			"proto_instances": {
+			}
+		}
+	}
+}

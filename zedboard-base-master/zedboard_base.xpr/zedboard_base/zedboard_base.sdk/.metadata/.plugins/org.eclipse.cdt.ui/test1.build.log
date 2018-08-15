@@ -1,0 +1,15 @@
+03:11:07 **** Incremental Build of configuration Debug for project test1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building target: test1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test1_bsp/ps7_cortexa9_0/lib -o "test1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/tingyuan/Documents/zedboard-base-master/Vivado/zedboard_base/zedboard_base.sdk/test1/Debug/../src/helloworld.c:173: undefined reference to `XDdr_hls_test_Set_num'
+collect2: error: ld returned 1 exit status
+makefile:39: recipe for target 'test1.elf' failed
+make: *** [test1.elf] Error 1
+
+03:11:08 Build Finished (took 381ms)
+

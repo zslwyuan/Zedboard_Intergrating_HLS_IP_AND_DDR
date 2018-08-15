@@ -1,0 +1,4 @@
+ddr_hls_test_addrbkb
+ddr_hls_test_BUS_A_s_axi
+ddr_hls_test_gmem_m_axi
+ddr_hls_test

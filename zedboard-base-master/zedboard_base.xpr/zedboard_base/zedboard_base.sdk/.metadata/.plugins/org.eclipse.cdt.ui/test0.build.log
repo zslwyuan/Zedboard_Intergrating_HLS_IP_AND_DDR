@@ -1,0 +1,48 @@
+03:07:26 **** Auto Build of configuration Debug for project test0 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../../test0_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../src/helloworld.c:50:
+../../test0_bsp/ps7_cortexa9_0/include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+../src/helloworld.c: In function 'xddr_hls_test_init':
+../src/helloworld.c:67:38: error: 'XPAR_XDDR_HLS_TEST_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+  cfgPtr = XDdr_hls_test_LookupConfig(XPAR_XDDR_HLS_TEST_0_DEVICE_ID);
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                      XPAR_XSLCR_0_DEVICE_ID
+../src/helloworld.c:67:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'setup_interrupt':
+../src/helloworld.c:133:37: error: 'XPAR_FABRIC_DDR_HLS_TEST_0_INTERRUPT_INTR' undeclared (first use in this function)
+    result = XScuGic_Connect(&ScuGic,XPAR_FABRIC_DDR_HLS_TEST_0_INTERRUPT_INTR,(Xil_InterruptHandler)xddr_hls_test_isr,&hls_test);
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:155:8: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+        exit(-1);
+        ^~~~
+../src/helloworld.c:155:8: warning: incompatible implicit declaration of built-in function 'exit'
+../src/helloworld.c:155:8: note: include '<stdlib.h>' or provide a declaration of 'exit'
+../src/helloworld.c:161:8: warning: incompatible implicit declaration of built-in function 'exit'
+        exit(-1);
+        ^~~~
+../src/helloworld.c:161:8: note: include '<stdlib.h>' or provide a declaration of 'exit'
+../src/helloworld.c:176:8: warning: implicit declaration of function 'XDdr_hls_test_start'; did you mean 'XDdr_hls_test_Start'? [-Wimplicit-function-declaration]
+        XDdr_hls_test_start(&hls_test);
+        ^~~~~~~~~~~~~~~~~~~
+        XDdr_hls_test_Start
+../src/helloworld.c:199:15: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+      printf("%u\n",Xil_In32(0x10000000+(i*8)));
+              ~^    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+              %lu
+../src/helloworld.c:187:9: warning: variable 'ans0' set but not used [-Wunused-but-set-variable]
+     u32 ans0,ans1;
+         ^~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+
+03:07:26 Build Finished (took 387ms)
+

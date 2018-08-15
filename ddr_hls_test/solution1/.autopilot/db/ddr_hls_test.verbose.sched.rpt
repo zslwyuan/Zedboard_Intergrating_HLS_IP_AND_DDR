@@ -1,0 +1,419 @@
+
+
+================================================================
+== Vivado HLS Report for 'ddr_hls_test'
+================================================================
+* Date:           Wed Aug 15 03:52:18 2018
+
+* Version:        2018.2 (Build 2258646 on Thu Jun 14 20:25:20 MDT 2018)
+* Project:        ddr_hls_test
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.750|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+--------+--------+----------+-----------+-----------+-------+----------+
+        |             |     Latency     | Iteration|  Initiation Interval  |  Trip |          |
+        |  Loop Name  |   min  |   max  |  Latency |  achieved |   target  | Count | Pipelined|
+        +-------------+--------+--------+----------+-----------+-----------+-------+----------+
+        |- Loop 1     |       ?|       ?|         1|          -|          -|      ?|    no    |
+        |- Loop 2     |       ?|       ?|    204803|          -|          -|      ?|    no    |
+        | + Loop 2.1  |   92160|   92160|         9|          -|          -|  10240|    no    |
+        | + Loop 2.2  |  112640|  112640|        11|          -|          -|  10240|    no    |
+        +-------------+--------+--------+----------+-----------+-----------+-------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 23
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	2  / (!tmp)
+	3  / (tmp)
+3 --> 
+	4  / (tmp_1)
+4 --> 
+	5  / (!exitcond1)
+	13  / (exitcond1)
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	11  / true
+11 --> 
+	12  / true
+12 --> 
+	4  / true
+13 --> 
+	14  / (!exitcond)
+	3  / (exitcond)
+14 --> 
+	15  / true
+15 --> 
+	16  / true
+16 --> 
+	17  / true
+17 --> 
+	18  / true
+18 --> 
+	19  / true
+19 --> 
+	20  / true
+20 --> 
+	21  / true
+21 --> 
+	22  / true
+22 --> 
+	23  / true
+23 --> 
+	13  / true
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.00>
+ST_1 : Operation 24 [1/1] (1.00ns)   --->   "%saMaster_read = call i32 @_ssdm_op_Read.s_axilite.i32(i32 %saMaster)"   --->   Operation 24 'read' 'saMaster_read' <Predicate = true> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%tmp_5 = call i29 @_ssdm_op_PartSelect.i29.i32.i32.i32(i32 %saMaster_read, i32 3, i32 31)"   --->   Operation 25 'partselect' 'tmp_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_10_cast = zext i29 %tmp_5 to i30"   --->   Operation 26 'zext' 'tmp_10_cast' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i64* %gmem), !map !9"   --->   Operation 27 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %start_signal) nounwind, !map !15"   --->   Operation 28 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %hls_check) nounwind, !map !19"   --->   Operation 29 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %num) nounwind, !map !23"   --->   Operation 30 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([13 x i8]* @ddr_hls_test_str) nounwind"   --->   Operation 31 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [6 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [ddr_hls_test/top.cc:11]   --->   Operation 32 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %num, [10 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [6 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [ddr_hls_test/top.cc:12]   --->   Operation 33 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %start_signal, [10 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [6 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [ddr_hls_test/top.cc:13]   --->   Operation 34 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %hls_check, [10 x i8]* @p_str, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [6 x i8]* @p_str2, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [ddr_hls_test/top.cc:14]   --->   Operation 35 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i64* %gmem, [6 x i8]* @p_str3, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 1, [5 x i8]* @p_str4, [6 x i8]* @p_str5, [1 x i8]* @p_str1, i32 1, i32 1, i32 4, i32 4, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [ddr_hls_test/top.cc:16]   --->   Operation 36 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32 %saMaster, [10 x i8]* @mode, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 1, [1 x i8]* @bundle, [6 x i8]* @p_str5, [1 x i8]* @p_str1, i32 1, i32 1, i32 4, i32 4, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [ddr_hls_test/top.cc:16]   --->   Operation 37 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (1.00ns)   --->   "call void @_ssdm_op_Write.s_axilite.volatile.i32P(i32* %hls_check, i32 1234)" [ddr_hls_test/top.cc:19]   --->   Operation 38 'write' <Predicate = true> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "br label %1" [ddr_hls_test/top.cc:20]   --->   Operation 39 'br' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 3.47>
+ST_2 : Operation 40 [1/1] (1.00ns)   --->   "%start_signal_read = call i32 @_ssdm_op_Read.s_axilite.volatile.i32P(i32* %start_signal)" [ddr_hls_test/top.cc:20]   --->   Operation 40 'read' 'start_signal_read' <Predicate = true> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_2 : Operation 41 [1/1] (2.47ns)   --->   "%tmp = icmp eq i32 %start_signal_read, 1994" [ddr_hls_test/top.cc:20]   --->   Operation 41 'icmp' 'tmp' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 42 [1/1] (0.00ns)   --->   "br i1 %tmp, label %3, label %2" [ddr_hls_test/top.cc:20]   --->   Operation 42 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 43 [1/1] (1.00ns)   --->   "call void @_ssdm_op_Write.s_axilite.volatile.i32P(i32* %hls_check, i32 4321)" [ddr_hls_test/top.cc:22]   --->   Operation 43 'write' <Predicate = (!tmp)> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_2 : Operation 44 [1/1] (0.00ns)   --->   "br label %1" [ddr_hls_test/top.cc:24]   --->   Operation 44 'br' <Predicate = (!tmp)> <Delay = 0.00>
+ST_2 : Operation 45 [1/1] (0.00ns)   --->   "%res_check = alloca i1"   --->   Operation 45 'alloca' 'res_check' <Predicate = (tmp)> <Delay = 0.00>
+ST_2 : Operation 46 [1/1] (1.00ns)   --->   "%run_cnt = call i32 @_ssdm_op_Read.s_axilite.volatile.i32P(i32* %num)" [ddr_hls_test/top.cc:27]   --->   Operation 46 'read' 'run_cnt' <Predicate = (tmp)> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_2 : Operation 47 [1/1] (1.76ns)   --->   "store i1 true, i1* %res_check"   --->   Operation 47 'store' <Predicate = (tmp)> <Delay = 1.76>
+ST_2 : Operation 48 [1/1] (1.76ns)   --->   "br label %.loopexit" [ddr_hls_test/top.cc:30]   --->   Operation 48 'br' <Predicate = (tmp)> <Delay = 1.76>
+
+State 3 <SV = 2> <Delay = 2.52>
+ST_3 : Operation 49 [1/1] (0.00ns)   --->   "%j = phi i31 [ 0, %3 ], [ %j_1, %.loopexit.loopexit ]"   --->   Operation 49 'phi' 'j' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 50 [1/1] (0.00ns)   --->   "%j_cast = zext i31 %j to i32" [ddr_hls_test/top.cc:30]   --->   Operation 50 'zext' 'j_cast' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 51 [1/1] (2.47ns)   --->   "%tmp_1 = icmp slt i32 %j_cast, %run_cnt" [ddr_hls_test/top.cc:30]   --->   Operation 51 'icmp' 'tmp_1' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 52 [1/1] (2.52ns)   --->   "%j_1 = add i31 %j, 1" [ddr_hls_test/top.cc:30]   --->   Operation 52 'add' 'j_1' <Predicate = true> <Delay = 2.52> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 53 [1/1] (0.00ns)   --->   "br i1 %tmp_1, label %.preheader2.preheader, label %6" [ddr_hls_test/top.cc:30]   --->   Operation 53 'br' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 54 [1/1] (1.76ns)   --->   "br label %.preheader2" [ddr_hls_test/top.cc:33]   --->   Operation 54 'br' <Predicate = (tmp_1)> <Delay = 1.76>
+ST_3 : Operation 55 [1/1] (0.00ns)   --->   "%res_check_load = load i1* %res_check" [ddr_hls_test/top.cc:40]   --->   Operation 55 'load' 'res_check_load' <Predicate = (!tmp_1)> <Delay = 0.00>
+ST_3 : Operation 56 [1/1] (0.00ns)   --->   "br i1 %res_check_load, label %7, label %8" [ddr_hls_test/top.cc:40]   --->   Operation 56 'br' <Predicate = (!tmp_1)> <Delay = 0.00>
+ST_3 : Operation 57 [1/1] (1.00ns)   --->   "call void @_ssdm_op_Write.s_axilite.volatile.i32P(i32* %start_signal, i32 815)" [ddr_hls_test/top.cc:46]   --->   Operation 57 'write' <Predicate = (!tmp_1 & !res_check_load)> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_3 : Operation 58 [1/1] (0.00ns)   --->   "br label %9"   --->   Operation 58 'br' <Predicate = (!tmp_1 & !res_check_load)> <Delay = 0.00>
+ST_3 : Operation 59 [1/1] (1.00ns)   --->   "call void @_ssdm_op_Write.s_axilite.volatile.i32P(i32* %start_signal, i32 518)" [ddr_hls_test/top.cc:42]   --->   Operation 59 'write' <Predicate = (!tmp_1 & res_check_load)> <Delay = 1.00> <Core = "s_axilite">   --->   Core 10 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_3 : Operation 60 [1/1] (0.00ns)   --->   "br label %9" [ddr_hls_test/top.cc:43]   --->   Operation 60 'br' <Predicate = (!tmp_1 & res_check_load)> <Delay = 0.00>
+ST_3 : Operation 61 [1/1] (0.00ns)   --->   "ret void" [ddr_hls_test/top.cc:48]   --->   Operation 61 'ret' <Predicate = (!tmp_1)> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 3.25>
+ST_4 : Operation 62 [1/1] (0.00ns)   --->   "%i_1 = phi i14 [ %i, %4 ], [ 0, %.preheader2.preheader ]"   --->   Operation 62 'phi' 'i_1' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 63 [1/1] (0.00ns)   --->   "%i_1_cast2 = zext i14 %i_1 to i32" [ddr_hls_test/top.cc:33]   --->   Operation 63 'zext' 'i_1_cast2' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 64 [1/1] (2.20ns)   --->   "%exitcond1 = icmp eq i14 %i_1, -6144" [ddr_hls_test/top.cc:33]   --->   Operation 64 'icmp' 'exitcond1' <Predicate = true> <Delay = 2.20> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 65 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 10240, i64 10240, i64 10240) nounwind"   --->   Operation 65 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 66 [1/1] (1.81ns)   --->   "%i = add i14 %i_1, 1" [ddr_hls_test/top.cc:33]   --->   Operation 66 'add' 'i' <Predicate = true> <Delay = 1.81> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 67 [1/1] (0.00ns)   --->   "br i1 %exitcond1, label %.preheader.preheader, label %4" [ddr_hls_test/top.cc:33]   --->   Operation 67 'br' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 68 [1/1] (0.00ns)   --->   "%tmp_4 = zext i14 %i_1 to i64" [ddr_hls_test/top.cc:34]   --->   Operation 68 'zext' 'tmp_4' <Predicate = (!exitcond1)> <Delay = 0.00>
+ST_4 : Operation 69 [1/1] (0.00ns)   --->   "%addr_bram_addr = getelementptr [10240 x i24]* @addr_bram, i64 0, i64 %tmp_4" [ddr_hls_test/top.cc:34]   --->   Operation 69 'getelementptr' 'addr_bram_addr' <Predicate = (!exitcond1)> <Delay = 0.00>
+ST_4 : Operation 70 [2/2] (3.25ns)   --->   "%addr_bram_load = load i24* %addr_bram_addr, align 4" [ddr_hls_test/top.cc:34]   --->   Operation 70 'load' 'addr_bram_load' <Predicate = (!exitcond1)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 48 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 24> <Depth = 10240> <ROM>
+ST_4 : Operation 71 [1/1] (1.76ns)   --->   "br label %.preheader" [ddr_hls_test/top.cc:35]   --->   Operation 71 'br' <Predicate = (exitcond1)> <Delay = 1.76>
+
+State 5 <SV = 4> <Delay = 5.71>
+ST_5 : Operation 72 [1/1] (2.52ns)   --->   "%tmp_2 = add nsw i32 %i_1_cast2, %j_cast" [ddr_hls_test/top.cc:34]   --->   Operation 72 'add' 'tmp_2' <Predicate = true> <Delay = 2.52> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 73 [1/2] (3.25ns)   --->   "%addr_bram_load = load i24* %addr_bram_addr, align 4" [ddr_hls_test/top.cc:34]   --->   Operation 73 'load' 'addr_bram_load' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 48 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 24> <Depth = 10240> <ROM>
+ST_5 : Operation 74 [1/1] (0.00ns)   --->   "%tmp_5_cast = zext i24 %addr_bram_load to i30" [ddr_hls_test/top.cc:34]   --->   Operation 74 'zext' 'tmp_5_cast' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 75 [1/1] (2.46ns)   --->   "%saMaster2_sum = add i30 %tmp_5_cast, %tmp_10_cast" [ddr_hls_test/top.cc:34]   --->   Operation 75 'add' 'saMaster2_sum' <Predicate = true> <Delay = 2.46> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+
+State 6 <SV = 5> <Delay = 8.75>
+ST_6 : Operation 76 [1/1] (0.00ns)   --->   "%saMaster2_sum_cast = zext i30 %saMaster2_sum to i64" [ddr_hls_test/top.cc:34]   --->   Operation 76 'zext' 'saMaster2_sum_cast' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 77 [1/1] (0.00ns)   --->   "%gmem_addr = getelementptr inbounds i64* %gmem, i64 %saMaster2_sum_cast" [ddr_hls_test/top.cc:34]   --->   Operation 77 'getelementptr' 'gmem_addr' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 78 [1/1] (8.75ns)   --->   "%gmem_addr_req = call i1 @_ssdm_op_WriteReq.m_axi.i64P(i64* %gmem_addr, i32 1)" [ddr_hls_test/top.cc:34]   --->   Operation 78 'writereq' 'gmem_addr_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 7 <SV = 6> <Delay = 8.75>
+ST_7 : Operation 79 [1/1] (0.00ns)   --->   "%tmp_3 = sext i32 %tmp_2 to i64" [ddr_hls_test/top.cc:34]   --->   Operation 79 'sext' 'tmp_3' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 80 [1/1] (8.75ns)   --->   "call void @_ssdm_op_Write.m_axi.i64P(i64* %gmem_addr, i64 %tmp_3, i8 -1)" [ddr_hls_test/top.cc:34]   --->   Operation 80 'write' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 8 <SV = 7> <Delay = 8.75>
+ST_8 : Operation 81 [5/5] (8.75ns)   --->   "%gmem_addr_resp = call i1 @_ssdm_op_WriteResp.m_axi.i64P(i64* %gmem_addr)" [ddr_hls_test/top.cc:34]   --->   Operation 81 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 9 <SV = 8> <Delay = 8.75>
+ST_9 : Operation 82 [4/5] (8.75ns)   --->   "%gmem_addr_resp = call i1 @_ssdm_op_WriteResp.m_axi.i64P(i64* %gmem_addr)" [ddr_hls_test/top.cc:34]   --->   Operation 82 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 10 <SV = 9> <Delay = 8.75>
+ST_10 : Operation 83 [3/5] (8.75ns)   --->   "%gmem_addr_resp = call i1 @_ssdm_op_WriteResp.m_axi.i64P(i64* %gmem_addr)" [ddr_hls_test/top.cc:34]   --->   Operation 83 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 11 <SV = 10> <Delay = 8.75>
+ST_11 : Operation 84 [2/5] (8.75ns)   --->   "%gmem_addr_resp = call i1 @_ssdm_op_WriteResp.m_axi.i64P(i64* %gmem_addr)" [ddr_hls_test/top.cc:34]   --->   Operation 84 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 12 <SV = 11> <Delay = 8.75>
+ST_12 : Operation 85 [1/5] (8.75ns)   --->   "%gmem_addr_resp = call i1 @_ssdm_op_WriteResp.m_axi.i64P(i64* %gmem_addr)" [ddr_hls_test/top.cc:34]   --->   Operation 85 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_12 : Operation 86 [1/1] (0.00ns)   --->   "br label %.preheader2" [ddr_hls_test/top.cc:33]   --->   Operation 86 'br' <Predicate = true> <Delay = 0.00>
+
+State 13 <SV = 4> <Delay = 3.25>
+ST_13 : Operation 87 [1/1] (0.00ns)   --->   "%i_2 = phi i14 [ %i_3, %5 ], [ 0, %.preheader.preheader ]"   --->   Operation 87 'phi' 'i_2' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 88 [1/1] (0.00ns)   --->   "%i_2_cast1 = zext i14 %i_2 to i32" [ddr_hls_test/top.cc:35]   --->   Operation 88 'zext' 'i_2_cast1' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 89 [1/1] (2.20ns)   --->   "%exitcond = icmp eq i14 %i_2, -6144" [ddr_hls_test/top.cc:35]   --->   Operation 89 'icmp' 'exitcond' <Predicate = true> <Delay = 2.20> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 90 [1/1] (0.00ns)   --->   "%empty_5 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 10240, i64 10240, i64 10240) nounwind"   --->   Operation 90 'speclooptripcount' 'empty_5' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 91 [1/1] (1.81ns)   --->   "%i_3 = add i14 %i_2, 1" [ddr_hls_test/top.cc:35]   --->   Operation 91 'add' 'i_3' <Predicate = true> <Delay = 1.81> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 92 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %.loopexit.loopexit, label %5" [ddr_hls_test/top.cc:35]   --->   Operation 92 'br' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 93 [1/1] (0.00ns)   --->   "%tmp_8 = zext i14 %i_2 to i64" [ddr_hls_test/top.cc:36]   --->   Operation 93 'zext' 'tmp_8' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_13 : Operation 94 [1/1] (0.00ns)   --->   "%addr_bram_addr_1 = getelementptr [10240 x i24]* @addr_bram, i64 0, i64 %tmp_8" [ddr_hls_test/top.cc:36]   --->   Operation 94 'getelementptr' 'addr_bram_addr_1' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_13 : Operation 95 [2/2] (3.25ns)   --->   "%addr_bram_load_1 = load i24* %addr_bram_addr_1, align 4" [ddr_hls_test/top.cc:36]   --->   Operation 95 'load' 'addr_bram_load_1' <Predicate = (!exitcond)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 48 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 24> <Depth = 10240> <ROM>
+ST_13 : Operation 96 [1/1] (2.52ns)   --->   "%tmp_s = add nsw i32 %i_2_cast1, %j_cast" [ddr_hls_test/top.cc:36]   --->   Operation 96 'add' 'tmp_s' <Predicate = (!exitcond)> <Delay = 2.52> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 97 [1/1] (0.00ns)   --->   "br label %.loopexit"   --->   Operation 97 'br' <Predicate = (exitcond)> <Delay = 0.00>
+
+State 14 <SV = 5> <Delay = 5.71>
+ST_14 : Operation 98 [1/2] (3.25ns)   --->   "%addr_bram_load_1 = load i24* %addr_bram_addr_1, align 4" [ddr_hls_test/top.cc:36]   --->   Operation 98 'load' 'addr_bram_load_1' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 48 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 24> <Depth = 10240> <ROM>
+ST_14 : Operation 99 [1/1] (0.00ns)   --->   "%tmp_9_cast = zext i24 %addr_bram_load_1 to i30" [ddr_hls_test/top.cc:36]   --->   Operation 99 'zext' 'tmp_9_cast' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 100 [1/1] (2.46ns)   --->   "%saMaster2_sum3 = add i30 %tmp_9_cast, %tmp_10_cast" [ddr_hls_test/top.cc:36]   --->   Operation 100 'add' 'saMaster2_sum3' <Predicate = true> <Delay = 2.46> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+
+State 15 <SV = 6> <Delay = 8.75>
+ST_15 : Operation 101 [1/1] (0.00ns)   --->   "%saMaster2_sum3_cast = zext i30 %saMaster2_sum3 to i64" [ddr_hls_test/top.cc:36]   --->   Operation 101 'zext' 'saMaster2_sum3_cast' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 102 [1/1] (0.00ns)   --->   "%gmem_addr_1 = getelementptr inbounds i64* %gmem, i64 %saMaster2_sum3_cast" [ddr_hls_test/top.cc:36]   --->   Operation 102 'getelementptr' 'gmem_addr_1' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 103 [7/7] (8.75ns)   --->   "%gmem_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %gmem_addr_1, i32 1)" [ddr_hls_test/top.cc:36]   --->   Operation 103 'readreq' 'gmem_load_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 16 <SV = 7> <Delay = 8.75>
+ST_16 : Operation 104 [6/7] (8.75ns)   --->   "%gmem_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %gmem_addr_1, i32 1)" [ddr_hls_test/top.cc:36]   --->   Operation 104 'readreq' 'gmem_load_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 17 <SV = 8> <Delay = 8.75>
+ST_17 : Operation 105 [5/7] (8.75ns)   --->   "%gmem_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %gmem_addr_1, i32 1)" [ddr_hls_test/top.cc:36]   --->   Operation 105 'readreq' 'gmem_load_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 18 <SV = 9> <Delay = 8.75>
+ST_18 : Operation 106 [4/7] (8.75ns)   --->   "%gmem_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %gmem_addr_1, i32 1)" [ddr_hls_test/top.cc:36]   --->   Operation 106 'readreq' 'gmem_load_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 19 <SV = 10> <Delay = 8.75>
+ST_19 : Operation 107 [3/7] (8.75ns)   --->   "%gmem_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %gmem_addr_1, i32 1)" [ddr_hls_test/top.cc:36]   --->   Operation 107 'readreq' 'gmem_load_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 20 <SV = 11> <Delay = 8.75>
+ST_20 : Operation 108 [2/7] (8.75ns)   --->   "%gmem_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %gmem_addr_1, i32 1)" [ddr_hls_test/top.cc:36]   --->   Operation 108 'readreq' 'gmem_load_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 21 <SV = 12> <Delay = 8.75>
+ST_21 : Operation 109 [1/7] (8.75ns)   --->   "%gmem_load_req = call i1 @_ssdm_op_ReadReq.m_axi.i64P(i64* %gmem_addr_1, i32 1)" [ddr_hls_test/top.cc:36]   --->   Operation 109 'readreq' 'gmem_load_req' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 22 <SV = 13> <Delay = 8.75>
+ST_22 : Operation 110 [1/1] (8.75ns)   --->   "%gmem_addr_1_read = call i64 @_ssdm_op_Read.m_axi.i64P(i64* %gmem_addr_1)" [ddr_hls_test/top.cc:36]   --->   Operation 110 'read' 'gmem_addr_1_read' <Predicate = true> <Delay = 8.75> <Core = "m_axi">   --->   Core 9 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 23 <SV = 14> <Delay = 5.52>
+ST_23 : Operation 111 [1/1] (0.00ns)   --->   "%res_check_load_1 = load i1* %res_check" [ddr_hls_test/top.cc:36]   --->   Operation 111 'load' 'res_check_load_1' <Predicate = true> <Delay = 0.00>
+ST_23 : Operation 112 [1/1] (0.00ns)   --->   "%tmp_6 = sext i32 %tmp_s to i64" [ddr_hls_test/top.cc:36]   --->   Operation 112 'sext' 'tmp_6' <Predicate = true> <Delay = 0.00>
+ST_23 : Operation 113 [1/1] (2.77ns)   --->   "%tmp_7 = icmp eq i64 %gmem_addr_1_read, %tmp_6" [ddr_hls_test/top.cc:36]   --->   Operation 113 'icmp' 'tmp_7' <Predicate = true> <Delay = 2.77> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_23 : Operation 114 [1/1] (0.97ns)   --->   "%res_check_1 = or i1 %tmp_7, %res_check_load_1" [ddr_hls_test/top.cc:36]   --->   Operation 114 'or' 'res_check_1' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_23 : Operation 115 [1/1] (1.76ns)   --->   "store i1 %res_check_1, i1* %res_check" [ddr_hls_test/top.cc:36]   --->   Operation 115 'store' <Predicate = true> <Delay = 1.76>
+ST_23 : Operation 116 [1/1] (0.00ns)   --->   "br label %.preheader" [ddr_hls_test/top.cc:35]   --->   Operation 116 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1ns
+The critical path consists of the following:
+	s_axi read on port 'saMaster' [7]  (1 ns)
+
+ <State 2>: 3.47ns
+The critical path consists of the following:
+	s_axi read on port 'start_signal' (ddr_hls_test/top.cc:20) [24]  (1 ns)
+	'icmp' operation ('tmp', ddr_hls_test/top.cc:20) [25]  (2.47 ns)
+
+ <State 3>: 2.52ns
+The critical path consists of the following:
+	'phi' operation ('j') with incoming values : ('j', ddr_hls_test/top.cc:30) [36]  (0 ns)
+	'add' operation ('j', ddr_hls_test/top.cc:30) [39]  (2.52 ns)
+
+ <State 4>: 3.25ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', ddr_hls_test/top.cc:33) [44]  (0 ns)
+	'getelementptr' operation ('addr_bram_addr', ddr_hls_test/top.cc:34) [54]  (0 ns)
+	'load' operation ('addr_bram_load', ddr_hls_test/top.cc:34) on array 'addr_bram' [55]  (3.25 ns)
+
+ <State 5>: 5.72ns
+The critical path consists of the following:
+	'load' operation ('addr_bram_load', ddr_hls_test/top.cc:34) on array 'addr_bram' [55]  (3.25 ns)
+	'add' operation ('saMaster2_sum', ddr_hls_test/top.cc:34) [57]  (2.46 ns)
+
+ <State 6>: 8.75ns
+The critical path consists of the following:
+	'getelementptr' operation ('gmem_addr', ddr_hls_test/top.cc:34) [59]  (0 ns)
+	bus request on port 'gmem' (ddr_hls_test/top.cc:34) [60]  (8.75 ns)
+
+ <State 7>: 8.75ns
+The critical path consists of the following:
+	bus write on port 'gmem' (ddr_hls_test/top.cc:34) [61]  (8.75 ns)
+
+ <State 8>: 8.75ns
+The critical path consists of the following:
+	bus access on port 'gmem' (ddr_hls_test/top.cc:34) [62]  (8.75 ns)
+
+ <State 9>: 8.75ns
+The critical path consists of the following:
+	bus access on port 'gmem' (ddr_hls_test/top.cc:34) [62]  (8.75 ns)
+
+ <State 10>: 8.75ns
+The critical path consists of the following:
+	bus access on port 'gmem' (ddr_hls_test/top.cc:34) [62]  (8.75 ns)
+
+ <State 11>: 8.75ns
+The critical path consists of the following:
+	bus access on port 'gmem' (ddr_hls_test/top.cc:34) [62]  (8.75 ns)
+
+ <State 12>: 8.75ns
+The critical path consists of the following:
+	bus access on port 'gmem' (ddr_hls_test/top.cc:34) [62]  (8.75 ns)
+
+ <State 13>: 3.25ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', ddr_hls_test/top.cc:35) [67]  (0 ns)
+	'getelementptr' operation ('addr_bram_addr_1', ddr_hls_test/top.cc:36) [76]  (0 ns)
+	'load' operation ('addr_bram_load_1', ddr_hls_test/top.cc:36) on array 'addr_bram' [77]  (3.25 ns)
+
+ <State 14>: 5.72ns
+The critical path consists of the following:
+	'load' operation ('addr_bram_load_1', ddr_hls_test/top.cc:36) on array 'addr_bram' [77]  (3.25 ns)
+	'add' operation ('saMaster2_sum3', ddr_hls_test/top.cc:36) [79]  (2.46 ns)
+
+ <State 15>: 8.75ns
+The critical path consists of the following:
+	'getelementptr' operation ('gmem_addr_1', ddr_hls_test/top.cc:36) [81]  (0 ns)
+	bus request on port 'gmem' (ddr_hls_test/top.cc:36) [82]  (8.75 ns)
+
+ <State 16>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'gmem' (ddr_hls_test/top.cc:36) [82]  (8.75 ns)
+
+ <State 17>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'gmem' (ddr_hls_test/top.cc:36) [82]  (8.75 ns)
+
+ <State 18>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'gmem' (ddr_hls_test/top.cc:36) [82]  (8.75 ns)
+
+ <State 19>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'gmem' (ddr_hls_test/top.cc:36) [82]  (8.75 ns)
+
+ <State 20>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'gmem' (ddr_hls_test/top.cc:36) [82]  (8.75 ns)
+
+ <State 21>: 8.75ns
+The critical path consists of the following:
+	bus request on port 'gmem' (ddr_hls_test/top.cc:36) [82]  (8.75 ns)
+
+ <State 22>: 8.75ns
+The critical path consists of the following:
+	bus read on port 'gmem' (ddr_hls_test/top.cc:36) [83]  (8.75 ns)
+
+ <State 23>: 5.52ns
+The critical path consists of the following:
+	'icmp' operation ('tmp_7', ddr_hls_test/top.cc:36) [86]  (2.78 ns)
+	'or' operation ('res_check', ddr_hls_test/top.cc:36) [87]  (0.978 ns)
+	'store' operation (ddr_hls_test/top.cc:36) of variable 'res_check', ddr_hls_test/top.cc:36 on local variable 'res_check' [88]  (1.77 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

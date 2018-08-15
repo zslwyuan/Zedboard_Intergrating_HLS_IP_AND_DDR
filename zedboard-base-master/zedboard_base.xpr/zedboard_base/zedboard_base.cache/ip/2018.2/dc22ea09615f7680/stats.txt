@@ -1,0 +1,4 @@
+NumberHits:1
+Timestamp: Tue Aug 14 14:36:24 UTC 2018
+VLNV: xilinx.com:hls:ddr_hls_test:1.0
+SynthRuntime: 80

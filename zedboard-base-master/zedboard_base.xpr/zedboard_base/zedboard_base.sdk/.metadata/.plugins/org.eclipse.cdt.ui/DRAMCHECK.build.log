@@ -1,0 +1,23 @@
+03:05:51 **** Auto Build of configuration Debug for project DRAMCHECK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/test01.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test01.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../DRAMCHECK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/test01.d" -MT"src/test01.o" -o "src/test01.o" "../src/test01.c"
+Finished building: ../src/test01.c
+ 
+Building target: DRAMCHECK.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../DRAMCHECK_bsp/ps7_cortexa9_0/lib -o "DRAMCHECK.elf"  ./src/test01.o ./src/translation_table.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: DRAMCHECK.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size DRAMCHECK.elf  |tee "DRAMCHECK.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 109308	   4820	  67232	 181360	  2c470	DRAMCHECK.elf
+Finished building: DRAMCHECK.elf.size
+ 
+
+03:05:51 Build Finished (took 723ms)
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="ddr_hls_test" xd:componentRef="ddr_hls_test" xd:initiationInterval="x" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_BUS_A" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="*(saMaster)" xd:originalName="saMaster" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataWidth="64" xd:bufferDirection="inout"/>
+  <xd:arg xd:name="*(start_signal)" xd:originalName="start_signal" xd:direction="in" xd:interfaceRef="s_axi_BUS_A" xd:busTypeRef="axilite" xd:offset="0x10" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(start_signal)" xd:originalName="start_signal" xd:direction="out" xd:interfaceRef="s_axi_BUS_A" xd:busTypeRef="axilite" xd:offset="0x18" xd:statusOffset="0x1C" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(hls_check)" xd:originalName="hls_check" xd:direction="out" xd:interfaceRef="s_axi_BUS_A" xd:busTypeRef="axilite" xd:offset="0x20" xd:statusOffset="0x24" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(num)" xd:originalName="num" xd:direction="in" xd:interfaceRef="s_axi_BUS_A" xd:busTypeRef="axilite" xd:offset="0x28" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="saMaster" xd:originalName="saMaster" xd:direction="in" xd:interfaceRef="s_axi_BUS_A" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="32" xd:offset="0x30" xd:handshakeRef="ap_none"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="1713" xd:FF="1231" xd:BRAM="28" xd:DSP="0"/>
+</xd:acceleratorMap>

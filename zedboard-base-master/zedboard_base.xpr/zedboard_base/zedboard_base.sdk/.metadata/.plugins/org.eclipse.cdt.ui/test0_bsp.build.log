@@ -1,0 +1,1541 @@
+03:07:19 **** Auto Build of project test0_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddr_hls_test_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddr_hls_test_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+In file included from xdmaps_g.c:54:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xdmaps.h:99:0,
+                 from xdmaps_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xdmaps_g.c:76:3: error: 'XPAR_XDMAPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   XPAR_XDMAPS_0_DEVICE_ID,
+   ^~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_DEVICE_ID
+xdmaps_g.c:77:3: error: 'XPAR_XDMAPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+Makefile:25: recipe for target 'xdmaps_g.o' failed
+   XPAR_XDMAPS_0_BASEADDR,
+   ^~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_BASEADDR
+make[1]: *** [xdmaps_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps_hw.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xdmaps_hw.o] Error 1
+Makefile:25: recipe for target 'xdmaps_hw.o' failed
+In file included from xdmaps.h:99:0,
+                 from xdmaps_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xdmaps_selftest.o' failed
+make[1]: *** [xdmaps_selftest.o] Error 1
+In file included from xdmaps_sinit.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xdmaps.h:99:0,
+                 from xdmaps_sinit.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps_sinit.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xdmaps_sinit.c: In function 'XDmaPs_LookupConfig':
+xdmaps_sinit.c:95:18: error: 'XPAR_XDMAPS_NUM_INSTANCES' undeclared (first use in this function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+Makefile:25: recipe for target 'xdmaps_sinit.o' failed
+  for (i = 0; i < XPAR_XDMAPS_NUM_INSTANCES; i++) {
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+                  XPAR_XSLCR_NUM_INSTANCES
+xdmaps_sinit.c:95:18: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [xdmaps_sinit.o] Error 1
+In file included from xdmaps.h:99:0,
+                 from xdmaps.c:82:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdmaps_hw.h:68,
+                 from xdmaps.h:104,
+                 from xdmaps.c:82:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xdmaps.o' failed
+make[1]: *** [xdmaps.o] Error 1
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/dmaps_v2_3/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/dmaps_v2_3/src/make.libs] Error 2
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_g.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_hw.h:81:0,
+                 from xqspips.h:298,
+                 from xqspips_g.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_g.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xqspips_g.c:75:36: error: 'XPAR_XQSPIPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ XQspiPs_Config XQspiPs_ConfigTable[XPAR_XQSPIPS_NUM_INSTANCES] = {
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    XPAR_XSLCR_NUM_INSTANCES
+xqspips_g.c:77:3: error: 'XPAR_XQSPIPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   XPAR_XQSPIPS_0_DEVICE_ID, /* Device ID for instance */
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_DEVICE_ID
+xqspips_g.c:78:3: error: 'XPAR_XQSPIPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   XPAR_XQSPIPS_0_BASEADDR,  /* Device base address */
+   ^~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_BASEADDR
+xqspips_g.c:79:3: error: 'XPAR_XQSPIPS_0_QSPI_CLK_FREQ_HZ' undeclared here (not in a function); did you mean 'XPAR_XQSPIPS_0_CLOCK_HZ'?
+   XPAR_XQSPIPS_0_QSPI_CLK_FREQ_HZ,
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XQSPIPS_0_CLOCK_HZ
+xqspips_g.c:80:3: error: 'XPAR_XQSPIPS_0_QSPI_MODE' undeclared here (not in a function); did you mean 'XPAR_XQSPIPS_0_BASEADDR'?
+   XPAR_XQSPIPS_0_QSPI_MODE
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XQSPIPS_0_BASEADDR
+Makefile:25: recipe for target 'xqspips_g.o' failed
+make[1]: *** [xqspips_g.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips_hw.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_hw.h:81:0,
+                 from xqspips_hw.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xqspips_hw.c: In function 'XQspiPs_LinearInit':
+xqspips_hw.c:195:5: error: 'XPAR_XQSPIPS_0_QSPI_MODE' undeclared (first use in this function); did you mean 'XPAR_XQSPIPS_0_INTR'?
+Makefile:25: recipe for target 'xqspips_hw.o' failed
+  if(XPAR_XQSPIPS_0_QSPI_MODE == XQSPIPS_CONNECTION_MODE_SINGLE){
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+     XPAR_XQSPIPS_0_INTR
+xqspips_hw.c:195:5: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [xqspips_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_selftest.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_hw.h:81:0,
+                 from xqspips.h:298,
+                 from xqspips_selftest.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xqspips_selftest.o' failed
+make[1]: *** [xqspips_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_hw.h:81:0,
+                 from xqspips.h:298,
+                 from xqspips_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xqspips_sinit.c: In function 'XQspiPs_LookupConfig':
+xqspips_sinit.c:92:26: error: 'XPAR_XQSPIPS_NUM_INSTANCES' undeclared (first use in this function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+  for (Index = 0; Index < XPAR_XQSPIPS_NUM_INSTANCES; Index++) {
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                          XPAR_XSLCR_NUM_INSTANCES
+xqspips_sinit.c:92:26: note: each undeclared identifier is reported only once for each function it appears in
+Makefile:25: recipe for target 'xqspips_sinit.o' failed
+make[1]: *** [xqspips_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips.c:112:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_hw.h:81:0,
+                 from xqspips.h:298,
+                 from xqspips.c:112:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xqspips.o' failed
+Makefile:25: recipe for target 'xqspips_options.o' failed
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/qspips_v3_4/src/make.libs' failed
+make[1]: *** [xqspips.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xqspips_hw.h:80,
+                 from xqspips.h:298,
+                 from xqspips_options.c:69:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xqspips_hw.h:81:0,
+                 from xqspips.h:298,
+                 from xqspips_options.c:69:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xqspips_options.o] Error 1
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/qspips_v3_4/src/make.libs] Error 2
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from inbyte.c:1:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from ../../../include/xuartps_hw.h:75,
+                 from inbyte.c:2:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from print.c:20:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xplatform_info.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_testio.c:52:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from sleep.h:56,
+                 from sleep.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xtime_l.h:67:0,
+                 from sleep.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from sleep.c:58:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_printf.c:8:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_sleepcommon.c:50:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from outbyte.c:1:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from ../../../include/xuartps_hw.h:75,
+                 from outbyte.c:2:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xtime_l.h:67:0,
+                 from xtime_l.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xtime_l.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_sleeptimer.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_sleeptimer.h:57:0,
+                 from xil_sleeptimer.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xtime_l.h:67:0,
+                 from xil_sleeptimer.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_testmem.c:51:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from read.c:36:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from read.c:37:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from sleep.h:56,
+                 from usleep.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xtime_l.h:67:0,
+                 from usleep.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from usleep.c:61:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_io.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_cache.c:110:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_cache.c:112:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from xil_io.h:65,
+                 from xil_misc_psreset_api.h:58,
+                 from xil_misc_psreset_api.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xil_printf.h:12:0,
+                 from write.c:36:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from write.c:37:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from translation_table.S:96:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from boot.S:97:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:68: recipe for target 'standalone_libs' failed
+make[1]: *** [standalone_libs] Error 1
+make[1]: Target 'libs' not remade because of errors.
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/standalone_v6_7/src/make.libs' failed
+make: *** [ps7_cortexa9_0/libsrc/standalone_v6_7/src/make.libs] Error 2
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops.c:62:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xgpiops.o' failed
+make[1]: *** [xgpiops.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_intr.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xgpiops_intr.o' failed
+make[1]: *** [xgpiops_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xgpiops_g.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xgpiops_g.c:72:36: error: 'XPAR_XGPIOPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ XGpioPs_Config XGpioPs_ConfigTable[XPAR_XGPIOPS_NUM_INSTANCES] = {
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    XPAR_XSLCR_NUM_INSTANCES
+xgpiops_g.c:74:8: error: 'XPAR_XGPIOPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   (u16)XPAR_XGPIOPS_0_DEVICE_ID, /* Unique ID of device */
+        ^~~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_XSLCR_0_DEVICE_ID
+xgpiops_g.c:75:8: error: 'XPAR_XGPIOPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   (u32)XPAR_XGPIOPS_0_BASEADDR  /* Base address of device */
+        ^~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_XSLCR_0_BASEADDR
+make[1]: *** [xgpiops_g.o] Error 1
+Makefile:25: recipe for target 'xgpiops_g.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_selftest.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xgpiops_selftest.o' failed
+make[1]: *** [xgpiops_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops.h:123,
+                 from xgpiops_sinit.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xgpiops_sinit.c:59:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xgpiops_sinit.c:70:43: error: 'XPAR_XGPIOPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ extern XGpioPs_Config XGpioPs_ConfigTable[XPAR_XGPIOPS_NUM_INSTANCES];
+Makefile:25: recipe for target 'xgpiops_sinit.o' failed
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           XPAR_XSLCR_NUM_INSTANCES
+make[1]: *** [xgpiops_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xgpiops_hw.h:67,
+                 from xgpiops_hw.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xgpiops_hw.o] Error 1
+make[1]: Target 'libs' not remade because of errors.
+Makefile:25: recipe for target 'xgpiops_hw.o' failed
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/gpiops_v3_3/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+make: *** [ps7_cortexa9_0/libsrc/gpiops_v3_3/src/make.libs] Error 2
+Compiling emacps
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps_hw.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xemacps_hw.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xemacps_hw.o' failed
+make[1]: *** [xemacps_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_intr.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xemacps_intr.o] Error 1
+Makefile:25: recipe for target 'xemacps_intr.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps_bdring.c:70:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xemacps_bdring.o] Error 1
+Makefile:25: recipe for target 'xemacps_bdring.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_control.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xemacps_control.o' failed
+make[1]: *** [xemacps_control.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xemacps_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xemacps_sinit.c:64:43: error: 'XPAR_XEMACPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ extern XEmacPs_Config XEmacPs_ConfigTable[XPAR_XEMACPS_NUM_INSTANCES];
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           XPAR_XSLCR_NUM_INSTANCES
+Makefile:25: recipe for target 'xemacps_sinit.o' failed
+make[1]: *** [xemacps_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps_g.c:63:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xemacps_g.c:64:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xemacps_g.c:81:36: error: 'XPAR_XEMACPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ XEmacPs_Config XEmacPs_ConfigTable[XPAR_XEMACPS_NUM_INSTANCES] = {
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    XPAR_XSLCR_NUM_INSTANCES
+xemacps_g.c:83:8: error: 'XPAR_XEMACPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   (u16)XPAR_XEMACPS_0_DEVICE_ID,  /* Device ID */
+        ^~~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_XSLCR_0_DEVICE_ID
+xemacps_g.c:84:12: error: 'XPAR_XEMACPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   (UINTPTR)XPAR_XEMACPS_0_BASEADDR    /* Device base address */
+            ^~~~~~~~~~~~~~~~~~~~~~~
+            XPAR_XSLCR_0_BASEADDR
+make[1]: *** [xemacps_g.o] Error 1
+Makefile:25: recipe for target 'xemacps_g.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xemacps_hw.h:75,
+                 from xemacps.h:350,
+                 from xemacps.c:63:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xemacps.o' failed
+make[1]: *** [xemacps.o] Error 1
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/emacps_v3_7/src/make.libs' failed
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/emacps_v3_7/src/make.libs] Error 2
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_selftest.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xscugic_selftest.o] Error 1
+Makefile:25: recipe for target 'xscugic_selftest.o' failed
+In file included from xscugic_sinit.c:58:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_sinit.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xscugic_sinit.o] Error 1
+Makefile:25: recipe for target 'xscugic_sinit.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic.c:129:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xscugic.o' failed
+make[1]: *** [xscugic.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_g.c:63:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xscugic_g.c:64:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xscugic_g.c:88:36: error: 'XPAR_XSCUGIC_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_NUM_INSTANCES'?
+ XScuGic_Config XScuGic_ConfigTable[XPAR_XSCUGIC_NUM_INSTANCES] =
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    XPAR_SCUGIC_NUM_INSTANCES
+xscugic_g.c:91:14: error: 'XPAR_SCUGIC_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_SCUTIMER_DEVICE_ID'?
+         (u16)XPAR_SCUGIC_0_DEVICE_ID, /* Unique ID  of device */
+              ^~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_SCUTIMER_DEVICE_ID
+xscugic_g.c:92:14: error: 'XPAR_SCUGIC_0_CPU_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_CPU_BASEADDR'?
+         (u32)XPAR_SCUGIC_0_CPU_BASEADDR, /* CPU Interface base address */
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_SCUGIC_CPU_BASEADDR
+xscugic_g.c:93:14: error: 'XPAR_SCUGIC_0_DIST_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_DIST_BASEADDR'?
+         (u32)XPAR_SCUGIC_0_DIST_BASEADDR /* Distributor base address */
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_SCUGIC_DIST_BASEADDR
+make[1]: *** [xscugic_g.o] Error 1
+Makefile:25: recipe for target 'xscugic_g.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_hw.c:82:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xscugic_hw.c:83:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xscugic_hw.c:99:43: error: 'XPAR_XSCUGIC_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_NUM_INSTANCES'?
+ extern XScuGic_Config XScuGic_ConfigTable[XPAR_XSCUGIC_NUM_INSTANCES];
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           XPAR_SCUGIC_NUM_INSTANCES
+Makefile:25: recipe for target 'xscugic_hw.o' failed
+make[1]: *** [xscugic_hw.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscugic.h:198,
+                 from xscugic_intr.c:83:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xscugic_intr.o] Error 1
+Makefile:25: recipe for target 'xscugic_intr.o' failed
+make[1]: Target 'libs' not remade because of errors.
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/scugic_v3_9/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make: *** [ps7_cortexa9_0/libsrc/scugic_v3_9/src/make.libs] Error 2
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+In file included from xuartps_g.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_g.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xuartps_g.c:76:36: error: 'XPAR_XUARTPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ XUartPs_Config XUartPs_ConfigTable[XPAR_XUARTPS_NUM_INSTANCES] = {
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    XPAR_XSLCR_NUM_INSTANCES
+xuartps_g.c:78:8: error: 'XPAR_XUARTPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   (u16)XPAR_XUARTPS_0_DEVICE_ID,
+        ^~~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_XSLCR_0_DEVICE_ID
+xuartps_g.c:79:8: error: 'XPAR_XUARTPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPS_UART0_BASEADDR'?
+   (u32)XPAR_XUARTPS_0_BASEADDR,
+        ^~~~~~~~~~~~~~~~~~~~~~~
+        XPS_UART0_BASEADDR
+xuartps_g.c:80:8: error: 'XPAR_XUARTPS_0_UART_CLK_FREQ_HZ' undeclared here (not in a function); did you mean 'XPAR_XUARTPS_0_CLOCK_HZ'?
+   (u32)XPAR_XUARTPS_0_UART_CLK_FREQ_HZ,
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_XUARTPS_0_CLOCK_HZ
+make[1]: *** [xuartps_g.o] Error 1
+Makefile:25: recipe for target 'xuartps_g.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_selftest.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xuartps_selftest.o] Error 1
+Makefile:25: recipe for target 'xuartps_selftest.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps.c:60:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xuartps.o] Error 1
+Makefile:25: recipe for target 'xuartps.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps_hw.c:53:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xuartps_hw.o] Error 1
+Makefile:25: recipe for target 'xuartps_hw.o' failed
+In file included from xuartps_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_sinit.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xuartps_sinit.c:66:43: error: 'XPAR_XUARTPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ extern XUartPs_Config XUartPs_ConfigTable[XPAR_XUARTPS_NUM_INSTANCES];
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           XPAR_XSLCR_NUM_INSTANCES
+Makefile:25: recipe for target 'xuartps_sinit.o' failed
+make[1]: *** [xuartps_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_options.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xuartps_options.o' failed
+make[1]: *** [xuartps_options.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xuartps_hw.h:75,
+                 from xuartps.h:190,
+                 from xuartps_intr.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xuartps_intr.o' failed
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/uartps_v3_6/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+make[1]: *** [xuartps_intr.o] Error 1
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/uartps_v3_6/src/make.libs] Error 2
+Compiling xadcps
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_g.c:61:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xadcps_g.c:62:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xadcps_g.c:78:34: error: 'XPAR_XADCPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ XAdcPs_Config XAdcPs_ConfigTable[XPAR_XADCPS_NUM_INSTANCES] =
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                  XPAR_XSLCR_NUM_INSTANCES
+xadcps_g.c:81:3: error: 'XPAR_XADCPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   XPAR_XADCPS_0_DEVICE_ID, /**< Unique ID of device */
+   ^~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_DEVICE_ID
+xadcps_g.c:82:3: error: 'XPAR_XADCPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   XPAR_XADCPS_0_BASEADDR  /**< Base address of device */
+   ^~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_BASEADDR
+make[1]: *** [xadcps_g.o] Error 1
+Makefile:25: recipe for target 'xadcps_g.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_selftest.c:61:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xadcps_selftest.o] Error 1
+Makefile:25: recipe for target 'xadcps_selftest.o' failed
+In file included from xadcps_sinit.c:58:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_sinit.c:59:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xadcps_sinit.o' failed
+make[1]: *** [xadcps_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps.c:66:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xadcps.h:198:0,
+                 from xadcps.c:66:
+xadcps.c: In function 'XAdcPs_CfgInitialize':
+xadcps.c:124:18: error: 'XPAR_XDCFG_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+  XAdcPs_WriteReg(XPAR_XDCFG_0_BASEADDR,
+                  ^
+xadcps_hw.h:467:15: note: in definition of macro 'XAdcPs_WriteReg'
+   (Xil_Out32((BaseAddress) + (RegOffset), (Data)))
+               ^~~~~~~~~~~
+xadcps.c:124:18: note: each undeclared identifier is reported only once for each function it appears in
+  XAdcPs_WriteReg(XPAR_XDCFG_0_BASEADDR,
+                  ^
+xadcps_hw.h:467:15: note: in definition of macro 'XAdcPs_WriteReg'
+   (Xil_Out32((BaseAddress) + (RegOffset), (Data)))
+               ^~~~~~~~~~~
+make[1]: *** [xadcps.o] Error 1
+Makefile:25: recipe for target 'xadcps.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xadcps_hw.h:73,
+                 from xadcps.h:198,
+                 from xadcps_intr.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xadcps_intr.o] Error 1
+Makefile:25: recipe for target 'xadcps_intr.o' failed
+make[1]: Target 'libs' not remade because of errors.
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/xadcps_v2_2/src/make.libs' failed
+make: *** [ps7_cortexa9_0/libsrc/xadcps_v2_2/src/make.libs] Error 2
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg.c:92:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xdevcfg.o' failed
+make[1]: *** [xdevcfg.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_intr.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xdevcfg_intr.o] Error 1
+Makefile:25: recipe for target 'xdevcfg_intr.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg_hw.c:52:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xdevcfg_hw.o] Error 1
+Makefile:25: recipe for target 'xdevcfg_hw.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_selftest.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xdevcfg_selftest.o] Error 1
+Makefile:25: recipe for target 'xdevcfg_selftest.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xdevcfg_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xdevcfg_sinit.c: In function 'XDcfg_LookupConfig':
+xdevcfg_sinit.c:85:27: error: 'XPAR_XDCFG_NUM_INSTANCES' undeclared (first use in this function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+  for (Index = 0U; Index < XPAR_XDCFG_NUM_INSTANCES; Index++) {
+Makefile:25: recipe for target 'xdevcfg_sinit.o' failed
+                           ^~~~~~~~~~~~~~~~~~~~~~~~
+                           XPAR_XSLCR_NUM_INSTANCES
+xdevcfg_sinit.c:85:27: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [xdevcfg_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xdevcfg_hw.h:68,
+                 from xdevcfg.h:170,
+                 from xdevcfg_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xdevcfg_g.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xdevcfg_g.c:74:3: error: 'XPAR_XDCFG_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   XPAR_XDCFG_0_DEVICE_ID,
+   ^~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_DEVICE_ID
+xdevcfg_g.c:75:3: error: 'XPAR_XDCFG_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   XPAR_XDCFG_0_BASEADDR,
+   ^~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_BASEADDR
+make[1]: *** [xdevcfg_g.o] Error 1
+Makefile:25: recipe for target 'xdevcfg_g.o' failed
+make[1]: Target 'libs' not remade because of errors.
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/devcfg_v3_5/src/make.libs' failed
+make: *** [ps7_cortexa9_0/libsrc/devcfg_v3_5/src/make.libs] Error 2
+Running Make libs in ps7_cortexa9_0/libsrc/ddr_hls_test_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddr_hls_test_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddr_hls_test
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xddr_hls_test.h:20,
+                 from xddr_hls_test.c:9:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xddr_hls_test_sinit.c:11:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xddr_hls_test.h:20,
+                 from xddr_hls_test_sinit.c:12:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xddr_hls_test_sinit.c: In function 'XDdr_hls_test_LookupConfig':
+xddr_hls_test_sinit.c:21:26: error: 'XPAR_XDDR_HLS_TEST_NUM_INSTANCES' undeclared (first use in this function); did you mean 'XPAR_GLOBAL_TMR_NUM_INSTANCES'?
+  for (Index = 0; Index < XPAR_XDDR_HLS_TEST_NUM_INSTANCES; Index++) {
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                          XPAR_GLOBAL_TMR_NUM_INSTANCES
+xddr_hls_test_sinit.c:21:26: note: each undeclared identifier is reported only once for each function it appears in
+Makefile:25: recipe for target 'libs' failed
+make[1]: *** [libs] Error 1
+make: *** [ps7_cortexa9_0/libsrc/ddr_hls_test_v1_0/src/make.libs] Error 2
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/ddr_hls_test_v1_0/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xscuwdt_selftest.o] Error 1
+Makefile:25: recipe for target 'xscuwdt_selftest.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xscuwdt_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xscuwdt_sinit.c:67:43: error: 'XPAR_XSCUWDT_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_NUM_INSTANCES'?
+ extern XScuWdt_Config XScuWdt_ConfigTable[XPAR_XSCUWDT_NUM_INSTANCES];
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           XPAR_SCUGIC_NUM_INSTANCES
+Makefile:25: recipe for target 'xscuwdt_sinit.o' failed
+make[1]: *** [xscuwdt_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xscuwdt.o] Error 1
+Makefile:25: recipe for target 'xscuwdt.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscuwdt_hw.h:69,
+                 from xscuwdt.h:139,
+                 from xscuwdt_g.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xscuwdt_g.c:57:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xscuwdt_g.c:73:36: error: 'XPAR_XSCUWDT_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_NUM_INSTANCES'?
+ XScuWdt_Config XScuWdt_ConfigTable[XPAR_XSCUWDT_NUM_INSTANCES] = {
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                                    XPAR_SCUGIC_NUM_INSTANCES
+xscuwdt_g.c:75:8: error: 'XPAR_SCUWDT_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_SCUWDT_DEVICE_ID'?
+   (u16)XPAR_SCUWDT_0_DEVICE_ID,
+        ^~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_SCUWDT_DEVICE_ID
+xscuwdt_g.c:76:8: error: 'XPAR_SCUWDT_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   (u32)XPAR_SCUWDT_0_BASEADDR
+        ^~~~~~~~~~~~~~~~~~~~~~
+        XPAR_XSLCR_0_BASEADDR
+Makefile:25: recipe for target 'xscuwdt_g.o' failed
+make[1]: *** [xscuwdt_g.o] Error 1
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/scuwdt_v2_1/src/make.libs' failed
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scuwdt_v2_1/src/make.libs] Error 2
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_options.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xttcps_options.o] Error 1
+Makefile:25: recipe for target 'xttcps_options.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps.c:67:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xttcps.o] Error 1
+Makefile:25: recipe for target 'xttcps.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_selftest.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xttcps_selftest.o' failed
+make[1]: *** [xttcps_selftest.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_sinit.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xttcps_sinit.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xttcps_sinit.c:66:41: error: 'XPAR_XTTCPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ extern XTtcPs_Config XTtcPs_ConfigTable[XPAR_XTTCPS_NUM_INSTANCES];
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                         XPAR_XSLCR_NUM_INSTANCES
+make[1]: *** [xttcps_sinit.o] Error 1
+Makefile:25: recipe for target 'xttcps_sinit.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xttcps_hw.h:69,
+                 from xttcps.h:119,
+                 from xttcps_g.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xttcps_g.c:57:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xttcps_g.c:77:34: error: 'XPAR_XTTCPS_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+ XTtcPs_Config XTtcPs_ConfigTable[XPAR_XTTCPS_NUM_INSTANCES] = {
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                  XPAR_XSLCR_NUM_INSTANCES
+xttcps_g.c:79:9: error: 'XPAR_XTTCPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+    (u16)XPAR_XTTCPS_0_DEVICE_ID, /* Device ID for instance */
+         ^~~~~~~~~~~~~~~~~~~~~~~
+         XPAR_XSLCR_0_DEVICE_ID
+xttcps_g.c:80:9: error: 'XPAR_XTTCPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+    (u32)XPAR_XTTCPS_0_BASEADDR, /* Device base address */
+         ^~~~~~~~~~~~~~~~~~~~~~
+         XPAR_XSLCR_0_BASEADDR
+xttcps_g.c:81:9: error: 'XPAR_XTTCPS_0_TTC_CLK_FREQ_HZ' undeclared here (not in a function); did you mean 'XPAR_XTTCPS_0_CLOCK_HZ'?
+    (u32)XPAR_XTTCPS_0_TTC_CLK_FREQ_HZ /* Device input clock frequency */
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         XPAR_XTTCPS_0_CLOCK_HZ
+make[1]: *** [xttcps_g.o] Error 1
+Makefile:25: recipe for target 'xttcps_g.o' failed
+make[1]: Target 'libs' not remade because of errors.
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/ttcps_v3_6/src/make.libs' failed
+make: *** [ps7_cortexa9_0/libsrc/ttcps_v3_6/src/make.libs] Error 2
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_hw.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xusbps_hw.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xusbps_hw.o] Error 1
+Makefile:25: recipe for target 'xusbps_hw.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_intr.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xusbps_intr.o' failed
+make[1]: *** [xusbps_intr.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xusbps_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xusbps_sinit.c: In function 'XUsbPs_LookupConfig':
+xusbps_sinit.c:90:26: error: 'XPAR_XUSBPS_NUM_INSTANCES' undeclared (first use in this function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+  for (Index = 0; Index < XPAR_XUSBPS_NUM_INSTANCES; Index++) {
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+                          XPAR_XSLCR_NUM_INSTANCES
+xusbps_sinit.c:90:26: note: each undeclared identifier is reported only once for each function it appears in
+Makefile:25: recipe for target 'xusbps_sinit.o' failed
+make[1]: *** [xusbps_sinit.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_endpoint.c:65:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xusbps_endpoint.o] Error 1
+Makefile:25: recipe for target 'xusbps_endpoint.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xusbps.o' failed
+make[1]: *** [xusbps.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xusbps_hw.h:66,
+                 from xusbps.h:203,
+                 from xusbps_g.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xusbps_g.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xusbps_g.c:71:6: error: 'XPAR_XUSBPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+Makefile:25: recipe for target 'xusbps_g.o' failed
+      XPAR_XUSBPS_0_BASEADDR
+      ^~~~~~~~~~~~~~~~~~~~~~
+      XPAR_XSLCR_0_BASEADDR
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/usbps_v2_4/src/make.libs' failed
+make[1]: *** [xusbps_g.o] Error 1
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/usbps_v2_4/src/make.libs] Error 2
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps_sinit.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps_hw.h:80:0,
+                 from xsdps.h:168,
+                 from xsdps_sinit.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps_sinit.c:57:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xsdps_sinit.c: In function 'XSdPs_LookupConfig':
+xsdps_sinit.c:91:32: error: 'XPAR_XSDPS_NUM_INSTANCES' undeclared (first use in this function); did you mean 'XPAR_XSLCR_NUM_INSTANCES'?
+  for (Index = 0U; Index < (u32)XPAR_XSDPS_NUM_INSTANCES; Index++) {
+                                ^~~~~~~~~~~~~~~~~~~~~~~~
+                                XPAR_XSLCR_NUM_INSTANCES
+xsdps_sinit.c:91:32: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [xsdps_sinit.o] Error 1
+Makefile:25: recipe for target 'xsdps_sinit.o' failed
+In file included from xsdps_g.c:55:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps_g.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps_hw.h:80:0,
+                 from xsdps.h:168,
+                 from xsdps_g.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xsdps_g.c:65:3: error: 'XPAR_XSDPS_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_DEVICE_ID'?
+   XPAR_XSDPS_0_DEVICE_ID,
+   ^~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_DEVICE_ID
+xsdps_g.c:66:3: error: 'XPAR_XSDPS_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   XPAR_XSDPS_0_BASEADDR,
+   ^~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSLCR_0_BASEADDR
+xsdps_g.c:67:3: error: 'XPAR_XSDPS_0_SDIO_CLK_FREQ_HZ' undeclared here (not in a function); did you mean 'XPAR_XSDPS_0_DEVICE_ID'?
+   XPAR_XSDPS_0_SDIO_CLK_FREQ_HZ
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_XSDPS_0_DEVICE_ID
+make[1]: *** [xsdps_g.o] Error 1
+Makefile:25: recipe for target 'xsdps_g.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps.c:99:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps_hw.h:80:0,
+                 from xsdps.h:168,
+                 from xsdps.c:99:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xsdps.o' failed
+make[1]: *** [xsdps.o] Error 1
+In file included from ../../../include/xil_printf.h:12:0,
+                 from xsdps.h:165,
+                 from xsdps_options.c:84:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xsdps_hw.h:80:0,
+                 from xsdps.h:168,
+                 from xsdps_options.c:84:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:25: recipe for target 'xsdps_options.o' failed
+make[1]: *** [xsdps_options.o] Error 1
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/sdps_v3_5/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/sdps_v3_5/src/make.libs] Error 2
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_4/src
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling tmrctr
+In file included from xtmrctr.c:73:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr.c:74:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_g.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xtmrctr_g.c:58:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_intr.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr_l.c:58:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_options.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_selftest.c:56:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xtmrctr_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_sinit.c:57:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xtmrctr_sinit.c: In function 'XTmrCtr_LookupConfig':
+xtmrctr_sinit.c:93:24: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  for (Index = 0; Index < XPAR_XTMRCTR_NUM_INSTANCES; Index++) {
+                        ^
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xtmrctr_l.h:77,
+                 from xtmrctr.h:179,
+                 from xtmrctr_stats.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+Makefile:18: recipe for target 'libs' failed
+make[1]: *** [libs] Error 1
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/tmrctr_v4_4/src/make.libs' failed
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+make: *** [ps7_cortexa9_0/libsrc/tmrctr_v4_4/src/make.libs] Error 2
+Compiling scutimer
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xscutimer.o] Error 1
+Makefile:25: recipe for target 'xscutimer.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_selftest.c:54:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+make[1]: *** [xscutimer_selftest.o] Error 1
+Makefile:25: recipe for target 'xscutimer_selftest.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_sinit.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xscutimer_sinit.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xscutimer_sinit.c:65:47: error: 'XPAR_XSCUTIMER_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_NUM_INSTANCES'?
+ extern XScuTimer_Config XScuTimer_ConfigTable[XPAR_XSCUTIMER_NUM_INSTANCES];
+                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                               XPAR_SCUGIC_NUM_INSTANCES
+make[1]: *** [xscutimer_sinit.o] Error 1
+Makefile:25: recipe for target 'xscutimer_sinit.o' failed
+In file included from ../../../include/xil_printf.h:12:0,
+                 from ../../../include/xil_io.h:65,
+                 from xscutimer_hw.h:66,
+                 from xscutimer.h:117,
+                 from xscutimer_g.c:55:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+In file included from xscutimer_g.c:56:0:
+../../../include/xparameters.h:1:0: error: unterminated #ifndef
+ #ifndef XPARAMETERS_H   /* prevent circular inclusions */
+ 
+xscutimer_g.c:72:40: error: 'XPAR_XSCUTIMER_NUM_INSTANCES' undeclared here (not in a function); did you mean 'XPAR_SCUGIC_NUM_INSTANCES'?
+ XScuTimer_Config XScuTimer_ConfigTable[XPAR_XSCUTIMER_NUM_INSTANCES] = {
+                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                        XPAR_SCUGIC_NUM_INSTANCES
+xscutimer_g.c:74:8: error: 'XPAR_XSCUTIMER_0_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_SCUTIMER_DEVICE_ID'?
+   (u16)XPAR_XSCUTIMER_0_DEVICE_ID,
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_SCUTIMER_DEVICE_ID
+xscutimer_g.c:75:8: error: 'XPAR_XSCUTIMER_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_XSLCR_0_BASEADDR'?
+   (u32)XPAR_XSCUTIMER_0_BASEADDR
+        ^~~~~~~~~~~~~~~~~~~~~~~~~
+        XPAR_XSLCR_0_BASEADDR
+Makefile:25: recipe for target 'xscutimer_g.o' failed
+make[1]: *** [xscutimer_g.o] Error 1
+Makefile:29: recipe for target 'ps7_cortexa9_0/libsrc/scutimer_v2_1/src/make.libs' failed
+make[1]: Target 'libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/scutimer_v2_1/src/make.libs] Error 2
+make: Target 'all' not remade because of errors.
+
+03:07:24 Build Finished (took 4s.508ms)
+
