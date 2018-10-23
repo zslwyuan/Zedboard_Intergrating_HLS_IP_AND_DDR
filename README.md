@@ -1,6 +1,6 @@
 # Zedboard_Intergrating_HLS_IP_AND_DDR
 
-This project implements DDR3 random access with HLS. The Cortex A9 will print the result via UART. Please refer to ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)
+This project implements DDR3 random access with HLS. The Cortex A9 will print the result via UART. Please refer to **[ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_2/ug871-vivado-high-level-synthesis-tutorial.pdf)**
 
 
 HLS part:
