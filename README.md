@@ -14,6 +14,6 @@ Vivado HLS part:
 4. Launch SDK via Vivado
 
 Xilinx SDK part:
-1. please refer to ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)
+1. please refer to **[ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_2/ug871-vivado-high-level-synthesis-tutorial.pdf)**
 2. you can find the source code for Cortex A9 in the directory (/zedboard-base-master/zedboard_base.xpr/zedboard_base/zedboard_base.sdk/test2/src)
 
