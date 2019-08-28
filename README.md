@@ -2,6 +2,7 @@
 
 This project implements DDR3 random access with HLS. The Cortex A9 will print the result via UART. Please refer to **[ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_2/ug871-vivado-high-level-synthesis-tutorial.pdf)**
 
+~If this blog is useful for you, a STAR will be encouragement to me. LOL~
 
 VivadoHLS part:
 1. Please firsr import the HLS project via VivadoHLS (ddr_hls_test)
