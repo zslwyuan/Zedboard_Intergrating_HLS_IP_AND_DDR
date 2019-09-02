@@ -2,6 +2,8 @@
 
 This project implements DDR3 random access with HLS. The Cortex A9 will print the result via UART. Please refer to **[ug871-vivado-high-level-synthesis-tutorial.pdf (Chapter 10)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2014_2/ug871-vivado-high-level-synthesis-tutorial.pdf)**
 
+Instead of DDR test, a more practical project for matrix multiplication application can be found **[here](https://github.com/zslwyuan/Zynq_HLS_DDR_Dataflow_kernel_2mm)**. Compared with the DDR test, the project implements a practical project for Matrix Multiplication, including data generation, FPGA acceleration and result checking.
+
 ~If this blog is useful for you, a STAR will be encouragement to me. LOL~
 
 VivadoHLS part:
